@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#game-board {
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+}
+
+.tile {
+    background-color: lightblue;
+    border: 2px solid #333;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    background-color: white;
+    border: none;
+}
